@@ -1,0 +1,10 @@
+---
+vpc_id: vpc-6af3d002
+subnet_id: subnet-b4571fdc
+ec2_keypair: aditya
+instance_count: 2
+db_subnets:
+  - subnet-b4571fdc
+  - subnet-6093461b
+db_availability_zone: ap-south-1a
+db_username: todobackend
